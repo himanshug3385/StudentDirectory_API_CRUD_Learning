@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS Student(
+  student_id VARCHAR(250) PRIMARY KEY,
+  name VARCHAR(250) NOT NULL,
+  address VARCHAR(250) NOT NULL,
+  contact VARCHAR(250) NOT NULL
+
+ );
